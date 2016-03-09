@@ -6,37 +6,54 @@
 
 .center {text-align: center;}
 
+
 .blueborder {
+  	display:inline-block;
   	opacity: 70%;
 	background-color:#E1F0F5;
-  	margin-top: 30px;
-  	width: 500px;
+  	margin:auto;
+  	width: 430px;
   	height: 20px;
  	padding: 20px;
   	border: 1px solid blue;
   	text-align:center;
 }
 
-
-}
-.border{
+.blackborder{
 	border: 1px solid black;
+	text-align:center;
+	background-color: gray;
+	width: 100%;
+	opacity: 90%;
+	
 }
 
-.greencircle {
+#greencircle {
 	display: inline-block;
 	background-color:green;
 	border-radius: 100px;
 	border: 3px solid black;
 	width: 200px;
 	height: 200px;
+	margin-right: 125px;
+	margin-left: 75px;
 }
 
-.purplesquare {
+#purplesquare {
 	display: inline-block;
 	background-color:purple;
 	border: 3px solid black;
 	width:200px;
 	height:200px;
-	margin-left:20%;
+	margin-left:200px;
+	margin-right: 100px;
+}
+
+#rabbitimg {
+	display: inline-block;
+	border: 3px solid blue;
+	width: 200px;
+	height: 200px;
+	margin-left:200px;
+	margine-right: 75px;
 }
